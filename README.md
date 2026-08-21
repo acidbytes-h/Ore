@@ -40,18 +40,23 @@ Comments are the same as you'd do in almost any programming language :
 ```
 # Variables
 ```rust
-let meaning-of-life = 42
+let meaning_of_life = 42
 // And how to print those variables?
-println?(meaning-of-life)
+println?(meaning_of_life)
 ```
-
+# Timer
+As with any sane language, Oxide has a timer!
+```c
+sleep?(1000) // This equals to 1 second!
+```
+More on this further down.
 # User Input
 This is the most important part of Oxide (as of now) :
 ```rust
 println?("What is your dev name?")
 let name = input?()
 println?("Hello, ")
-println?(name\n)
+println?(name)
 ```
 In my opinion, it is an absolute necessity to make your programming language have input.
 
@@ -61,16 +66,17 @@ Honestly, this is the biggest thing that puts it apart from Rust as of this vers
 # Requirements
 To actually get to use Oxide, you need to download rustc (don't ask me, what am I, a README.md?)
 
-Then, you need to download the source file.
+Then, you need to download the source file that's right in this repo.
 
 Then compile it using :
 ```bash
 rustc oxide.rs -o oxide && ./oxide your-file.oxd
 ```
+Oxide also requires the file format **.oxd**. So, if you compile a non-.oxd file through the Oxide compiler you just made, it **will** give an error.
 # Recommendations
 * At the moment, there's no syntax highlighting for Oxide. If you use VS Code, however, you can set the syntax highlighting to that of Rust or C++ and it will work almost perfectly!
 * Use "println?" most of the time. However, for interactive games where you have to enter data and such, it's recommended to use "print?". This is because "print?" is just "println" but it doesn't add a newline. I know that doesn't sound great, but one day, it will come in handy.
-* The sleep function measures in milliseconds, not seconds. So if you type "sleep(1)" and it loads almost instantaneosly, then that's just how the code works. But if you type in "sleep(1)" and it actually loads in 1 second, then get off the drugs.
+* The sleep function measures in milliseconds, not seconds. So if you type "sleep?(1)" and it loads almost instantaneously, then that's just how the code works. But if you type in "sleep?(1)" and it actually loads in 1 second, then get off the drugs.
 * Use variables, kids!
 # Notes
 *Oxide is at version 0.01.*
@@ -79,11 +85,11 @@ So, if there are any bugs, make an issue on this repo and I will probably update
 
 *Oxide is being developed being a single person.*
 
-So, it would really help for you to... make an issue again and paste the feature you want in the project, like a lexer. Or even better, a fully developed interpreter that isn't part of rustc or any pre-built programming language such as Rust! Or anything you feel like adding!
+So, it would really help for you to... make an issue again and paste the feature you want in the project, like a lexer. Or even better, a fully developed interpreter that isn't part of rustc or any pre-built programming language such as Rust! Or anything you feel should be added!
 
 *Oxide is a programming language with zero community.*
 
-So, if you somehow stumbled upon this README.md, share it with your friends and tell them to share it to their friends! Or you can post Oxide so other people can see it!
+So, if you somehow stumbled upon this README.md, share it with your friends and tell them to share it to their friends! Or you can make a post on Oxide so other people can see it!
 # Upcoming features
 There will 100% be in the near future :
 * *Library support*

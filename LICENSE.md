@@ -1,6 +1,6 @@
 <img src="https://data.org/wp-content/uploads/2021/12/MIT_logo.png" width="300" alt="Description">
 
-*Copyright (c) 2026* **acidpave**
+*Copyright (c) 2026* **acidbytes.h**
 
 # Usage & Permissions
 Permission is hereby granted, free of charge, to any person obtaining a copy

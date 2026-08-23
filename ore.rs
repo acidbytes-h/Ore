@@ -4,8 +4,8 @@ use std::io::{self, Write};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    if args.len() < 2 || !args[1].ends_with(".oxd") {
-        return println!("Must provide a file ending in .oxd");
+    if args.len() < 2 || !args[1].ends_with(".ore") {
+        return println!("Must provide a file ending in .ore");
     }
     
     let raw_code = fs::read_to_string(&args[1]).expect("Failed to read file");

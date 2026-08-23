@@ -51,7 +51,6 @@ sleep?(1000) // This equals to 1 second!
 ```
 More on this further down.
 # User Input
-This is the most important part of Ore (as of now) :
 ```rust
 println?("What is your dev name?")
 let name = input?()
@@ -61,8 +60,14 @@ println?(name)
 In my opinion, it is an absolute necessity to make your programming language have input.
 
 Also, yes. It uses ? again.
+# Shell commands
+This has to be the craziest thing about Ore as of now :
+```rust
+system?("fastfetch")
+```
+Yes, you can run your shell scripts directly in Ore!
 
-Honestly, this is the biggest thing that puts it apart from Rust as of this version.
+And it makes it so incredibly simple compared to other programming languages!
 # Requirements
 To actually get to use Ore, you need to download rustc (don't ask me, what am I, a README.md?)
 
@@ -79,7 +84,7 @@ Ore also requires the file format **.ore**. So, if you compile a non-.ore file t
 * The sleep function measures in milliseconds, not seconds. So if you type "sleep?(1)" and it loads almost instantaneously, then that's just how the code works. But if you type in "sleep?(1)" and it actually loads in 1 second, then get off the drugs.
 * Use variables, kids!
 # Notes
-*Ore is at version 0.01.*
+*Ore is at version 0.02.*
 
 So, if there are any bugs, make an issue on this repo and I will probably update it!
 
@@ -89,7 +94,7 @@ So, it would really help for you to... make an issue again and paste the feature
 
 *Ore is a programming language with zero community.*
 
-So, if you somehow stumbled upon this README.md, share it with your friends and tell them to share it to their friends! Or you can make a post on Oxide so other people can see it!
+So, if you somehow stumbled upon this README.md, share it with your friends and tell them to share it to their friends! Or you can make a post on Ore so other people can see it!
 # Upcoming features
 There will 100% be in the near future :
 * *Library support*
@@ -99,4 +104,4 @@ There will 100% be in the near future :
 * *Over 100+ things I don't feel like naming right now*
 * *And most of the things you guys suggest!*
 
-Alright, that's all, folks! See you at version 0.02!
+Alright, that's all, folks! See you at version 0.03!

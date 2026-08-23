@@ -1,11 +1,9 @@
 println?("Beginning demo...")
 sleep?(1000)
 
-// 2. Test Interactive Same-Line Prompts and User Input
 print?("\nEnter your username: ")
 let username = input?()
 
-// 3. Test Manual C-Style Spacing Layouts and String Formatting
 println?("\n=========================================")
 print?("You're signed in.\nWelcome back, ")
 print?(username)
@@ -17,7 +15,7 @@ sleep?(1000)
 
 println?("Shell Time!")
 
-system?("ls | lolcat")
+system?("ls")
 
 println?("\n=========================================")
 println?("Demo finished!")

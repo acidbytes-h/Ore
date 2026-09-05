@@ -81,7 +81,7 @@ Ore also requires the file format **.ore**. So, if you compile a non-.ore file t
 # Recommendations
 * At the moment, there's no syntax highlighting for Ore. If you use VS Code, however, you can set the syntax highlighting to that of Rust or C++ and it will work almost perfectly!
 * Use "println?" most of the time. However, for interactive games where you have to enter data and such, it's recommended to use "print?". This is because "print?" is just "println?" but it doesn't add a newline. I know that doesn't sound great, but one day, it will come in handy.
-* The sleep function measures in milliseconds, not seconds. So if you type "sleep?(1)" and it loads almost instantaneously, then that's just how the code works. But if you type in "sleep?(1)" and it actually loads in 1 second, then get off the drugs.
+* The sleep function measures in milliseconds, not seconds. So if you type "sleep?(1)" and it loads almost instantaneously, then that's just how the code works. 
 * Use variables, kids!
 # Notes
 *Ore is at version 0.02.*
@@ -92,7 +92,7 @@ So, if there are any bugs, make an issue on this repo and I will probably update
 
 So, it would really help for you to... make an issue again and paste the feature you want in the project, like a lexer. Or even better, a fully developed interpreter that isn't part of rustc or any pre-built programming language such as Rust! Or anything you feel should be added!
 
-*Ore is a programming language with zero community.*
+*Ore is a programming language with virtually zero community.*
 
 So, if you somehow stumbled upon this README.md, share it with your friends and tell them to share it to their friends! Or you can make a post on Ore so other people can see it!
 # Upcoming features

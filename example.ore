@@ -15,7 +15,7 @@ sleep?(1000)
 
 println?("Shell Time!")
 
-system?("ls")
+system?("ls | lolcat")
 
 println?("\n=========================================")
 println?("Demo finished!")

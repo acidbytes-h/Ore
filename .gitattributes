@@ -1,3 +1,5 @@
 *.svg linguist-documentation
 
 *.ore linguist-language=Org
+
+*.ore linguist-detectable=true

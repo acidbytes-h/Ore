@@ -1,5 +1,5 @@
 # Ore
-<img src="orelogo.svg" alt="Alt text" width="400">
+<img src="images/orelogo.svg" alt="Alt text" width="400">
 
 *The logo for Ore, which was inspired by Rust's Ferris mascot.*
 

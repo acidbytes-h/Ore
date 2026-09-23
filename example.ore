@@ -1,0 +1,21 @@
+println?("Beginning demo...")
+sleep?(1000)
+
+print?("\nEnter your username: ")
+let username = input?()
+
+println?("\n=========================================")
+print?("You're signed in.\nWelcome back, ")
+print?(username)
+println?("!\n=========================================")
+sleep?(1500)
+
+println?("\nPreparing hardware checks...\n3\n2\n1\n")
+sleep?(1000)
+
+println?("Shell Time!")
+
+system?("ls | lolcat")
+
+println?("\n=========================================")
+println?("Demo finished!")

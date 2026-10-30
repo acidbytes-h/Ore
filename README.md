@@ -1,7 +1,8 @@
 # Ore
-<img src="images/orelogo.svg" alt="Alt text" width="400">
-
-*The logo for Ore, which was inspired by Rust's Ferris mascot.*
+<p align="center">
+<img src="images/orelogo.svg" alt="Alt text" width="400"><br>
+<em>*The logo for Ore, which was inspired by Rust's Ferris mascot.*</em>
+</p>
 
 Ore is a programming language that is 90% based on **Rust**. Which is actually mainly because it was built on Rust! The remaining 10% is inspired by *JS*,
 ```rust
